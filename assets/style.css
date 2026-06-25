@@ -1,7 +1,6 @@
-/* Estilos personalizados extraídos del bloque <style> original */
-
 body {
   font-family: 'DM Sans', sans-serif;
+  background: #0a0f1a;
 }
 
 .fade-in {
@@ -30,4 +29,12 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.bg-card {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.text-19 {
+  font-size: 19px;
 }
