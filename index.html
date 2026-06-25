@@ -31,7 +31,7 @@
 
   <nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-[#0a0f1a]/80 border-b border-white/5">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <span data-template-id="nav-title" class="canva-text text-sm font-semibold text-teal-400 truncate">I JBaDaCAA 2026</span>
+      <span data-template-id="nav-title" class="canva-text text-sm font-semibold text-teal-400 truncate">I BADACO 2026</span>
       <a href="#inscripcion" class="px-4 py-1.5 rounded-full bg-teal-500/20 text-teal-400 text-sm font-medium hover:bg-teal-500/30 transition">Inscripción</a>
     </div>
   </nav>
@@ -44,7 +44,12 @@
           <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
           <span data-template-id="hero-badge" class="canva-tag text-teal-400 text-xs font-medium">Actividad gratuita · No arancelada</span>
         </div>
-        <h1 data-template-id="hero-title" class="canva-text font-extrabold leading-tight text-white text-4xl mb-6">1ras Jornadas de construcción, gestión y diseño de bases de datos colaborativas, accesibles y abiertas</h1>
+        <h1 data-template-id="hero-title" class="canva-text font-extrabold leading-tight text-white text-4xl mb-6">
+          1ras Jornadas de construcción, gestión y diseño de 
+          <span class="text-teal-400">BA</span>ses de 
+          <span class="text-electric-400">DA</span>tos 
+          <span class="text-amber-400">CO</span>laborativas, accesibles y abiertas
+        </h1>
         <p data-template-id="hero-subtitle" class="canva-text text-lg text-gray-400 max-w-2xl mx-auto mb-8">Un espacio de encuentro para construir colectivamente saberes sobre datos abiertos, tecnología comunitaria y conocimiento compartido.</p>
         <div class="flex flex-wrap justify-center gap-4 mb-8">
           <div class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10">
@@ -63,7 +68,7 @@
     <section id="ejes" class="py-16 px-4 fade-in">
       <div class="max-w-6xl mx-auto">
         <h2 data-template-id="ejes-title" class="canva-text font-bold text-center text-white text-2xl mb-3">Ejes Temáticos</h2>
-        <p data-template-id="ejes-subtitle" class="canva-text text-center text-gray-400 mb-12 max-w-xl mx-auto">Cuatro dimensiones para pensar los datos abiertos, accesibles y colaborativos</p>
+        <p data-template-id="ejes-subtitle" class="canva-text text-center text-gray-400 mb-12 max-w-xl mx-auto">Cuatro dimensiones para pensar los datos abiertos y repositorios colaborativos, accesibles y abiertos:</p>
         <div class="grid md:grid-cols-2 gap-6">
           <div data-template-id="eje1-card" class="canva-card p-6 rounded-2xl gradient-border glow-teal hover:border-teal-400/40 transition bg-card">
             <div class="flex items-center gap-3 mb-3">
@@ -137,64 +142,58 @@
       </div>
     </section>
 
-    <!-- Presentación de Trabajos -->
     <section id="trabajos" class="py-16 px-4 fade-in">
       <div class="max-w-4xl mx-auto">
         <h2 data-template-id="trabajos-title" class="canva-text font-bold text-center text-white text-2xl mb-4">Presentación de Trabajos</h2>
-        <p data-template-id="trabajos-intro" class="canva-text text-center text-gray-400 mb-8 max-w-2xl mx-auto">Enviá tu producción académica para ser discutida en las mesas de trabajo.</p>
+        <p data-template-id="trabajos-intro" class="canva-text text-center text-gray-400 mb-6 max-w-2xl mx-auto">
+          Invitamos a presentar trabajos inéditos, que no hayan sido publicados ni expuestos en otros eventos, en alguno de los siguientes formatos:
+        </p>
+
+        <div class="space-y-6 mb-8">
+          <div class="p-5 rounded-2xl border border-teal-500/20 bg-card">
+            <h3 class="text-teal-400 font-semibold text-lg mb-2">📄 Reseñas de investigación (trabajo escrito)</h3>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              Sobre producción o coproducción, creación o gestión de bases de datos colaborativas, accesibles y abiertas. 
+              La reseña debe dar cuenta de los <strong>objetivos y preguntas planteadas</strong>, las <strong>perspectivas conceptuales o enfoques</strong>, las <strong>definiciones metodológicas</strong>, el <strong>análisis</strong> y las <strong>conclusiones o avances</strong> de la investigación desarrollada o en curso.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl border border-electric-500/20 bg-card">
+            <h3 class="text-electric-400 font-semibold text-lg mb-2">📖 Relato de experiencia (trabajo escrito)</h3>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              Experiencias de producción, creación o gestión de bases de datos colaborativas, accesibles y abiertas que resulten <strong>potencialmente innovadoras</strong> y contribuyan a enriquecer el debate. 
+              Se busca visibilizar experiencias <strong>colectivas e interdisciplinarias</strong> de producción, gestión y mantenimiento de repositorios digitales de datos y bases de datos accesibles y abiertas.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl border border-amber-500/20 bg-card">
+            <h3 class="text-amber-400 font-semibold text-lg mb-2">🎙️ Reflexiones sobre experiencias (trabajo escrito o podcast)</h3>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              Estas reflexiones deben orientarse a identificar, en clave de <strong>problematización</strong>, los <strong>desafíos, limitaciones y/o líneas de transformación</strong> en la construcción y gestión comunitaria de repositorios digitales de datos y bases de datos accesibles y abiertas.
+            </p>
+          </div>
+        </div>
+
         <div data-template-id="trabajos-box" class="canva-panel p-6 rounded-2xl border border-white/10 bg-card">
+          <h4 class="text-white font-semibold mb-3">Requisitos generales</h4>
           <ul class="space-y-3 text-sm text-gray-300">
-            <li class="flex gap-2"><i data-lucide="file-text" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req1" class="canva-text text-gray-300">Envío en archivos Word según la plantilla disponible para cada formato.</span></li>
-            <li class="flex gap-2"><i data-lucide="calendar" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req2" class="canva-text text-gray-300">Fecha límite de envío: 15 de septiembre de 2026.</span></li>
-            <li class="flex gap-2"><i data-lucide="book-open" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req3" class="canva-text text-gray-300">Texto completo entre 7 y 10 páginas, incluyendo imágenes, notas al pie, cuadros, tablas y referencias bibliográficas en APA 7.ª edición.</span></li>
-            <li class="flex gap-2"><i data-lucide="users" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req4" class="canva-text text-gray-300">Máximo 5 autores por trabajo.</span></li>
-            <li class="flex gap-2"><i data-lucide="user" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req5" class="canva-text text-gray-300">Cada persona podrá presentar hasta 2 trabajos.</span></li>
-            <li class="flex gap-2"><i data-lucide="sparkles" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req6" class="canva-text text-gray-300">Trabajos inéditos, no publicados ni expuestos en otros eventos.</span></li>
-            <li class="flex gap-2"><i data-lucide="layers" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req7" class="canva-text text-gray-300">Formatos: reseñas de investigación; relatos de experiencia; reflexiones sobre experiencias de creación o gestión de bases de datos colaborativas, accesibles y abiertas (trabajo escrito o podcast).</span></li>
+            <li class="flex gap-2"><i data-lucide="file-text" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req1" class="canva-text text-gray-300">Los trabajos deben ser enviados en archivos (LibreOffice Writer / Microsoft Word / PDF) realizados de acuerdo a cada formato de presentación.</span></li>
+            <li class="flex gap-2"><i data-lucide="calendar" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req2" class="canva-text text-gray-300">Fecha límite de envío: <strong>15 de septiembre de 2026</strong>.</span></li>
+            <li class="flex gap-2"><i data-lucide="book-open" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req3" class="canva-text text-gray-300">Texto completo entre <strong>7 y 10 páginas</strong>, incluyendo imágenes, notas al pie, cuadros, tablas y referencias bibliográficas en <strong>APA 7.ª edición</strong>.</span></li>
+            <li class="flex gap-2"><i data-lucide="users" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req4" class="canva-text text-gray-300">Máximo <strong>5 autores</strong> por trabajo.</span></li>
+            <li class="flex gap-2"><i data-lucide="user" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req5" class="canva-text text-gray-300">Cada persona podrá presentar hasta <strong>2 trabajos</strong>.</span></li>
+            <li class="flex gap-2"><i data-lucide="sparkles" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req6" class="canva-text text-gray-300">Trabajos <strong>inéditos</strong>, no publicados ni expuestos en otros eventos.</span></li>
+            <li class="flex gap-2"><i data-lucide="layers" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req7" class="canva-text text-gray-300">Los <strong>Reseñas de investigación</strong> deberan ser presentados en formato texto, de entre 7 y 10 páginas de extensión, e incluir las siguientes secciones: NTRODUCCIÓN, PROBLEMA DE INVESTIGACIÓN, OBJETIVOS, METODOLÓGIA DE TRABAJO, CONCLUSIONES y REFERENCIAS BIBLIOGRÁFICAS.</span></li>
+            <li class="flex gap-2"><i data-lucide="layers" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req7" class="canva-text text-gray-300">Los <strong>Relatos de Experiencia</strong> deberan ser presentados en formato texto, de entre 7 y 10 páginas de extensión, e incluir las siguientes secciones: INTRODUCCIÓN, DESCRIPCIÓN DE LA EXPERIENCIA, VALORACIÓN DE LOGROS Y DESAFÍOS FUTUROS, CONCLUSIONES y REFERENCIAS BIBLIOGRÁFICAS.</span></li>
+            <li class="flex gap-2"><i data-lucide="layers" class="w-4 h-4 text-teal-400 shrink-0 mt-0.5"></i><span data-template-id="trabajo-req7" class="canva-text text-gray-300">Las <strong>Reflexiones Sobre Experiencias</strong> en formato podcast deberá ser enviado en un archivo de audio formato MP4, con transcripciones escritas con una extensión de no más de 5 páginas.</span></li>
           </ul>
-          <p data-template-id="trabajos-cierre" class="canva-text text-sm text-gray-400 mt-6 pt-4 border-t border-white/10">Cada trabajo debe encuadrarse en uno de los ejes temáticos y será comentado en las mesas de discusión correspondientes.</p>
+          <p data-template-id="trabajos-cierre" class="canva-text text-sm text-gray-400 mt-6 pt-4 border-t border-white/10">
+            Cada trabajo debe encuadrarse en <strong>uno de los ejes temáticos</strong> y será <strong>comentado en las mesas de discusión</strong> correspondientes.
+          </p>
         </div>
       </div>
     </section>
 
-    <section id="cronograma" class="py-16 px-4 fade-in">
-      <div class="max-w-5xl mx-auto">
-        <h2 data-template-id="crono-title" class="canva-text font-bold text-center text-white text-2xl mb-12">Cronograma</h2>
-        <div class="grid md:grid-cols-2 gap-8">
-          <!-- Día 1 -->
-          <div class="rounded-2xl border border-teal-500/20 p-6 bg-card">
-            <h3 data-template-id="crono-day1-title" class="canva-text font-semibold text-teal-400 mb-4 text-19">Día 1 — Miércoles 22 de octubre</h3>
-            <div class="space-y-3 text-sm">
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">9:00</span><span data-template-id="d1-t1" class="canva-text text-gray-300">Registro</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">9:30</span><span data-template-id="d1-t2" class="canva-text text-gray-300">Conversatorio I — Ronda de Oradores</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">10:30</span><span data-template-id="d1-t3" class="canva-text text-gray-300">Ronda de Presentaciones de Trabajos</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">11:30</span><span data-template-id="d1-t4" class="canva-text text-gray-300">Conclusiones y cierre</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">12:00</span><span data-template-id="d1-t5" class="canva-text text-gray-300">Almuerzo y Recreación</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">14:00</span><span data-template-id="d1-t6" class="canva-text text-gray-300">Conversatorio II — Ronda de Oradores</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">15:00</span><span data-template-id="d1-t7" class="canva-text text-gray-300">Ronda de Presentaciones de Trabajos</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">16:00</span><span data-template-id="d1-t8" class="canva-text text-gray-300">Conclusiones y cierre</span></div>
-            </div>
-          </div>
-          <!-- Día 2 -->
-          <div class="rounded-2xl border border-electric-500/20 p-6 bg-card">
-            <h3 data-template-id="crono-day2-title" class="canva-text font-semibold text-electric-400 mb-4 text-19">Día 2 — Jueves 23 de octubre</h3>
-            <div class="space-y-3 text-sm">
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">9:00</span><span data-template-id="d2-t1" class="canva-text text-gray-300">Registro</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">9:30</span><span data-template-id="d2-t2" class="canva-text text-gray-300">Conversatorio III — Ronda de Oradores</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">10:30</span><span data-template-id="d2-t3" class="canva-text text-gray-300">Ronda de Presentaciones de Trabajos</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">11:30</span><span data-template-id="d2-t4" class="canva-text text-gray-300">Conclusiones y cierre</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">12:00</span><span data-template-id="d2-t5" class="canva-text text-gray-300">Almuerzo y Recreación</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">14:00</span><span data-template-id="d2-t6" class="canva-text text-gray-300">Conversatorio IV — Ronda de Oradores</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">15:00</span><span data-template-id="d2-t7" class="canva-text text-gray-300">Ronda de Presentaciones de Trabajos</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">16:00</span><span data-template-id="d2-t8" class="canva-text text-gray-300">Conclusiones y cierre</span></div>
-              <div class="flex gap-3"><span class="text-gray-500 w-12 shrink-0">17:00</span><span data-template-id="d2-t9" class="canva-text text-gray-300">Puesta en común y Cierre de las Jornadas</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Calendario -->
     <section id="calendario" class="py-16 px-4 fade-in">
       <div class="max-w-3xl mx-auto text-center">
         <h2 data-template-id="cal-title" class="canva-text font-bold text-white text-2xl mb-8">Fechas Clave</h2>
@@ -215,7 +214,6 @@
       </div>
     </section>
 
-    <!-- Inscripción -->
     <section id="inscripcion" class="py-16 px-4 fade-in">
       <div class="max-w-3xl mx-auto text-center">
         <h2 data-template-id="insc-title" class="canva-text font-bold text-white text-2xl mb-4">Inscripción y Participación</h2>
