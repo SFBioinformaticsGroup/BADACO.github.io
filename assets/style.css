@@ -38,3 +38,23 @@ html {
 .text-19 {
   font-size: 19px;
 }
+
+.crono-toggle {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  width: 100%;
+  color: inherit;
+}
+
+.crono-toggle:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.crono-content {
+  transition: all 0.3s ease;
+}
+
+.crono-toggle.open .crono-icon {
+  transform: rotate(180deg);
+}
