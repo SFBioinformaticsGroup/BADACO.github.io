@@ -58,3 +58,11 @@ html {
 .crono-toggle.open .crono-icon {
   transform: rotate(180deg);
 }
+
+.button {
+  margin-top: 15px;
+}
+
+.fecha {
+  margin-bottom: 15px;
+}

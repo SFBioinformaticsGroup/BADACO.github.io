@@ -50,6 +50,15 @@
   <nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-[#0a0f1a]/80 border-b border-white/5">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <span data-template-id="nav-title" class="canva-text text-sm font-semibold text-teal-400 truncate">BADACO 2026</span>
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#ejes" class="text-gray-300 hover:text-teal-400 transition">EJES</a>
+        <a href="#calendario" class="text-gray-300 hover:text-teal-400 transition">FECHAS</a>
+        <a href="#cronograma" class="text-gray-300 hover:text-teal-400 transition">CRONOGRAMA</a>
+        <a href="#conversatorios" class="text-gray-300 hover:text-teal-400 transition">CONVERSATORIOS</a>
+        <a href="#trabajos" class="text-gray-300 hover:text-teal-400 transition">PRESENTACIONES TRABAJOS</a>
+        <a href="#viaje" class="text-gray-300 hover:text-teal-400 transition">VIAJE</a>
+        <a href="#comites" class="text-gray-300 hover:text-teal-400 transition">COMITÉS</a>
+      </div>
       <a href="#inscripcion" class="px-4 py-1.5 rounded-full bg-teal-500/20 text-teal-400 text-sm font-medium hover:bg-teal-500/30 transition">Inscripción</a>
     </div>
   </nav>
@@ -137,7 +146,7 @@
           </div>
           <div class="px-5 py-3 rounded-xl bg-electric-500/10 border border-electric-500/20">
             <p data-template-id="cal-2-label" class="canva-text text-xs text-electric-400 font-medium">Envío de resúmenes</p>
-            <p data-template-id="cal-2-date" class="canva-text text-sm text-white font-semibold mt-1">15 de septiembre de 2026</p>
+            <p data-template-id="cal-2-date" class="canva-text text-sm text-white font-semibold mt-1">25 de septiembre de 2026</p>
           </div>
           <div class="px-5 py-3 rounded-xl bg-teal-500/10 border border-teal-500/20">
             <p data-template-id="cal-3-label" class="canva-text text-xs text-teal-400 font-medium">Comunicación de evaluaciones</p>
@@ -150,6 +159,73 @@
             <i data-lucide="instagram" class="w-4 h-4"></i>Seguinos en Instagram
           </a>
         </div>
+        <section id="cronograma" class="py-16 px-4 fade-in">
+          <div class="max-w-4xl mx-auto">
+            <h2 data-template-id="crono-title" class="canva-text font-bold text-center text-white text-2xl mb-3">Cronograma de Actividades</h2>
+            <p class="text-center text-gray-400 text-sm mb-8">Hacé clic en cada día para ver el detalle</p>
+
+            <div class="crono-day mb-4 rounded-2xl border border-white/10 overflow-hidden bg-card">
+              <button class="crono-toggle w-full px-6 py-4 text-left flex items-center justify-between hover:bg-white/5 transition" data-target="dia22">
+                <span class="font-semibold text-white text-lg">🗓️ Jueves 22 de octubre</span>
+                <i data-lucide="chevron-down" class="crono-icon w-5 h-5 text-teal-400 transition-transform duration-300"></i>
+              </button>
+              <div id="dia22" class="crono-content px-6 pb-6 pt-2 hidden">
+                <div class="overflow-x-auto">
+                  <table class="w-full text-sm text-gray-300">
+                    <thead>
+                      <tr class="border-b border-white/10">
+                        <th class="py-2 text-left font-medium text-teal-400">Hora</th>
+                        <th class="py-2 text-left font-medium text-teal-400">Actividad</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr><td class="py-2">9:00</td><td>REGISTRO</td></tr>
+                      <tr><td class="py-2">9:30</td><td>Conversatorio I – Ronda de Oradores</td></tr>
+                      <tr><td class="py-2">10:30</td><td>Conclusiones y cierre</td></tr>
+                      <tr><td class="py-2">11:30</td><td><span class="text-amber-300 font-medium">TALLER CURACIÓN COLECTIVA DE DATOS (Apertura de inscripciones pronto)</span></td></tr>
+                      <tr><td class="py-2">12:00</td><td>Almuerzo y Recreación</td></tr>
+                      <tr><td class="py-2">14:00</td><td>Conversatorio II – Ronda de Oradores</td></tr>
+                      <tr><td class="py-2">15:00</td><td>Ronda de Presentaciones de Trabajos</td></tr>
+                      <tr><td class="py-2">16:00</td><td>Conclusiones y cierre</td></tr>
+                      <tr><td class="py-2">17:00</td><td><span class="text-amber-300 font-medium">TALLER DECOLONIZACIÓN DIGITAL (Apertura de inscripciones pronto)</span></td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="crono-day mb-4 rounded-2xl border border-white/10 overflow-hidden bg-card">
+              <button class="crono-toggle w-full px-6 py-4 text-left flex items-center justify-between hover:bg-white/5 transition" data-target="dia23">
+                <span class="font-semibold text-white text-lg">🗓️ Viernes 23 de octubre</span>
+                <i data-lucide="chevron-down" class="crono-icon w-5 h-5 text-teal-400 transition-transform duration-300"></i>
+              </button>
+              <div id="dia23" class="crono-content px-6 pb-6 pt-2 hidden">
+                <div class="overflow-x-auto">
+                  <table class="w-full text-sm text-gray-300">
+                    <thead>
+                      <tr class="border-b border-white/10">
+                        <th class="py-2 text-left font-medium text-teal-400">Hora</th>
+                        <th class="py-2 text-left font-medium text-teal-400">Actividad</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr><td class="py-2">9:00</td><td>Registro</td></tr>
+                      <tr><td class="py-2">9:30</td><td>Conversatorio III – Ronda de Oradores</td></tr>
+                      <tr><td class="py-2">10:30</td><td>Conclusiones y cierre</td></tr>
+                      <tr><td class="py-2">11:00</td><td><span class="text-amber-300 font-medium">TALLER HERRAMIENTAS PARA VISUALIZACIÓN DE DATOS (Apertura de inscripciones pronto)</span></td></tr>
+                      <tr><td class="py-2">12:00</td><td>Almuerzo y Recreación</td></tr>
+                      <tr><td class="py-2">14:00</td><td>Conversatorio IV – Ronda de Oradores</td></tr>
+                      <tr><td class="py-2">15:00</td><td>Ronda de Presentaciones de Trabajos</td></tr>
+                      <tr><td class="py-2">16:00</td><td>Puesta en común y Cierre de las Jornadas</td></tr>
+                      <tr><td class="py-2">17:00</td><td>Brunch de despedida</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
     </section>
 
     <section id="conversatorios" class="py-16 px-4 fade-in">
@@ -165,7 +241,7 @@
           <div data-template-id="conv2-card" class="canva-card p-6 rounded-2xl border border-electric-500/20 bg-card">
             <span class="text-xs font-semibold text-electric-400 uppercase tracking-wider">Conversatorio II</span>
             <h3 data-template-id="conv2-title" class="canva-text font-semibold text-white mt-2 mb-3 text-19">Construcción y gestión de bases de datos colaborativas en el contexto tecnológico y monopólico actual</h3>
-            <p data-template-id="conv2-speakers" class="canva-text text-sm text-gray-400">Conversan: Ezequiel McGovern (ARSAT), María Dalponte Ayastuy (SIGMA-UNQ, LIFIA-UNLP), Diego Ferreyra (UBA-FFyL), Ing. Débora Fortini (UNQ), Joan Imano Gonzalez Quiroga (Fundar)</p>
+            <p data-template-id="conv2-speakers" class="canva-text text-sm text-gray-400">Conversan: Ezequiel McGovern (ARSAT), Marcos J.Gómez (UNC-FAMAF), Diego Ferreyra (UBA-FFyL), Ing. Débora Fortini (UNQ), Joan Imano Gonzalez Quiroga (Fundar)</p>
             <p data-template-id="conv2-coord" class="canva-text text-xs text-electric-400 mt-2">Coordina: Ing. Franco Bulgarelli (UTN FRBA)</p>
           </div>
           <div data-template-id="conv3-card" class="canva-card p-6 rounded-2xl border border-teal-500/20 bg-card">
@@ -184,116 +260,33 @@
       </div>
     </section>
 
-    <section id="cronograma" class="py-16 px-4 fade-in">
+    <section id="conversatorios" class="py-16 px-4 fade-in">
       <div class="max-w-4xl mx-auto">
-        <h2 data-template-id="crono-title" class="canva-text font-bold text-center text-white text-2xl mb-3">Cronograma de Actividades</h2>
-        <p class="text-center text-gray-400 text-sm mb-8">Hacé clic en cada día para ver el detalle</p>
-
-        <!-- Día 1: 22 de octubre -->
-        <div class="crono-day mb-4 rounded-2xl border border-white/10 overflow-hidden bg-card">
-          <button class="crono-toggle w-full px-6 py-4 text-left flex items-center justify-between hover:bg-white/5 transition" data-target="dia22">
-            <span class="font-semibold text-white text-lg">🗓️ Jueves 22 de octubre</span>
-            <i data-lucide="chevron-down" class="crono-icon w-5 h-5 text-teal-400 transition-transform duration-300"></i>
-          </button>
-          <div id="dia22" class="crono-content px-6 pb-6 pt-2 hidden">
-            <div class="overflow-x-auto">
-              <table class="w-full text-sm text-gray-300">
-                <thead>
-                  <tr class="border-b border-white/10">
-                    <th class="py-2 text-left font-medium text-teal-400">Hora</th>
-                    <th class="py-2 text-left font-medium text-teal-400">Actividad</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><td class="py-2">9:00</td><td>REGISTRO Y APERTURA</td></tr>
-                  <tr>
-                    <td class="py-2 align-top">9:30</td>
-                    <td class="py-2">
-                      <p class="text-white font-medium">Conversatorio I - Ronda de Oradores</p>
-                      <p class="text-xs text-gray-400 mt-1"><span class="text-teal-400">Conversan:</span> Javier Oscar Blanco (Famaf y FSoc - UNC), Dra. María de los Ángeles Martini (UBA-UNM), Mariana Romero (CEDES - CONICET), Mercedes Krause (IIGG - UBA), Diego Torres (LIFIA, CICPBA-UNLP - UNQ)</p>
-                      <p class="text-xs text-electric-400 mt-1">Coordina: Dra. Ana Julia Velez Rueda (CONICET - UNQ)</p>
-                    </td>
-                  </tr>
-                  <tr><td class="py-2">10:50</td><td>Conclusiones y cierre</td></tr>
-                  <tr>
-                    <td class="py-2 align-top">11:00</td>
-                    <td class="py-2">
-                      <ul class="space-y-3">
-                        <li><span class="text-white font-medium">De la colección biológica al dato abierto: digitalización y publicación de la Colección de Hongos Entomopatógenos del CEPAVE en GBIF</span> - Scelsio, Natalia. S</li>
-                        <li><span class="text-white font-medium">NaturAr: la experiencia de construir y sostener una plataforma colaborativa de productos naturales de la Argentina</span> - Patricia A. Quispe</li>
-                        <li><span class="text-white font-medium">Primeros pasos en el desarrollo de un LIMS para el Centro Nacional de Genómica y Bioinformática - ANLIS Malbrán</span> - Cuba, Facundo</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr><td class="py-2">11:30</td><td><span class="text-amber-300 font-medium">Taller Curación Colectiva de Datos</span></td></tr>
-                  <tr><td class="py-2">12:30</td><td>Almuerzo y Recreación</td></tr>
-                  <tr>
-                    <td class="py-2 align-top">14:00</td>
-                    <td class="py-2">
-                      <p class="text-white font-medium">Conversatorio II - Ronda de Oradores</p>
-                      <p class="text-xs text-gray-400 mt-1"><span class="text-teal-400">Conversan:</span> Ezequiel McGovern (ARSAT), María Dalponte Ayastuy (SIGMA-UNQ, LIFIA-UNLP), Diego Ferreyra (UBA-FFyL), Ing. Débora Fortini (UNQ), Joan Imano Gonzalez Quiroga (Fundar)</p>
-                      <p class="text-xs text-electric-400 mt-1">Coordina: Ing. Franco Bulgarelli (UTN FRBA)</p>
-                    </td>
-                  </tr>
-                  <tr><td class="py-2">15:40</td><td>Conclusiones y cierre</td></tr>
-                  <tr>
-                    <td class="py-2 align-top">16:00</td>
-                    <td class="py-2">
-                      <ul class="space-y-3">
-                        <li><span class="text-white font-medium">Construcción de base de datos colaborativa de productos naturales con curado de datos asistido por IA</span> - Leandro Martínez Heredia</li>
-                        <li><span class="text-white font-medium">Bases de datos de insectos vectores: una experiencia de trabajo colaborativo</span> - Emiliano A. Bruno</li>
-                        <li><span class="text-white font-medium">Del prototipo al repositorio regional: evaluación comparativa de plataformas open source y construcción de un repositorio de datos colaborativo, accesible y abierto para la gestión de desastres naturales en América Latina y el Caribe. El caso de la iniciativa D-HELA</span> - Juan-Sebastián González-Sanabria</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr><td class="py-2">17:00</td><td><span class="text-amber-300 font-medium">Taller Decolonización Digital</span></td></tr>
-                </tbody>
-              </table>
-            </div>
+        <h2 data-template-id="conv-title" class="canva-text font-bold text-center text-white text-2xl mb-12">Talleres</h2>
+        <div class="space-y-6">
+          <div data-template-id="conv2-card" class="canva-card p-6 rounded-2xl border border-electric-500/20 bg-card">
+            <span class="text-xs font-semibold text-electric-400 uppercase tracking-wider">Curación Colectiva de Datos</span>
+            <h3 data-template-id="conv1-title" class="canva-text font-semibold text-white mt-2 mb-3 text-19">Un taller sobre Git/ GitHub y herramientas colectiva de curación de datos colectiva</h3>
+            <p data-template-id="conv2-speakers" class="canva-text text-sm text-gray-400">Requisitos: manejo medio de internet, computadora propia</p>
+            <p data-template-id="conv1-speakers" class="canva-text text-sm text-gray-400">Coordina: Equipo FarmacopeAR </p>
+            <p data-template-id="conv1-speakers" class="canva-text text-sm text-gray-400 fecha">🗓️ <strong>22 de Octubre - 11:30 hs</strong></p>
+            <a href="https://forms.gle/pRMndt1177JGoxMT8" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 text-white text-sm font-medium hover:shadow-lg hover:shadow-purple-500/30 transition shadow-md button">Inscribite</a>
           </div>
-        </div>
-
-        <!-- Día 2: 23 de octubre -->
-        <div class="crono-day mb-4 rounded-2xl border border-white/10 overflow-hidden bg-card">
-          <button class="crono-toggle w-full px-6 py-4 text-left flex items-center justify-between hover:bg-white/5 transition" data-target="dia23">
-            <span class="font-semibold text-white text-lg">🗓️ Viernes 23 de octubre</span>
-            <i data-lucide="chevron-down" class="crono-icon w-5 h-5 text-teal-400 transition-transform duration-300"></i>
-          </button>
-          <div id="dia23" class="crono-content px-6 pb-6 pt-2 hidden">
-            <div class="overflow-x-auto">
-              <table class="w-full text-sm text-gray-300">
-                <thead>
-                  <tr class="border-b border-white/10">
-                    <th class="py-2 text-left font-medium text-teal-400">Hora</th>
-                    <th class="py-2 text-left font-medium text-teal-400">Actividad</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><td class="py-2">9:00</td><td>Registro</td></tr>
-                  <tr>
-                    <td class="py-2 align-top">10:00</td>
-                    <td class="py-2">
-                      <p class="text-white font-medium">Conversatorio III - Ronda de Oradores</p>
-                      <p class="text-xs text-gray-400 mt-1"><span class="text-teal-400">Conversan:</span> Dra. Bárbara Arias Toledo (UNC-CONICET), Ing. Gisela Morinigo (Ahora que si nos ven), Cecilia Samanes (Mapa de la Policía. EdIPo), Natalia Narvaez Tojter (CELS), Emanuel Luiz Zuccolo (CORREPI)</p>
-                      <p class="text-xs text-electric-400 mt-1">Coordina: Dra. Ana Julia Velez Rueda (CONICET - UNQ)</p>
-                    </td>
-                  </tr>
-                  <tr><td class="py-2">11:40</td><td>Conclusiones y cierre</td></tr>
-                  <tr><td class="py-2">11:50</td><td><span class="text-amber-300 font-medium">Taller de gestión y visualización de datos con herramientas Open Source</span></td></tr>
-                  <tr><td class="py-2">12:50</td><td>Almuerzo y Recreación</td></tr>
-                  <tr>
-                    <td class="py-2 align-top">14:00</td>
-                    <td class="py-2">
-                      <p class="text-white font-medium">Conversatorio IV - Ronda de Oradores</p>
-                      <p class="text-xs text-gray-400 mt-1"><span class="text-teal-400">Conversan:</span> Emilse Garzón (Revista Anfibia), Laura Neirotti (UNSAM - UNLZ - UNTREF), Tomás Pomar (O.D.I.A), Andres Snitcofsky (Visualizando.ar), Mariana Kunst (Fundar)</p>
-                      <p class="text-xs text-electric-400 mt-1">Coordinación: Dra. Bárbara Arias Toledo (UNC-CONICET), Dra. Ana Julia Velez Rueda (CONICET - UNQ)</p>
-                    </td>
-                  </tr>
-                  <tr><td class="py-2">15:40</td><td>Puesta en común y Cierre de las Jornadas</td></tr>
-                  <tr><td class="py-2">16:00</td><td>Brunch Despedida</td></tr>
-                </tbody>
-              </table>
-            </div>
+          <div data-template-id="conv1-card" class="canva-card p-6 rounded-2xl border border-teal-500/20 bg-card">
+            <span class="text-xs font-semibold text-teal-400 uppercase tracking-wider">Decolonización Digital</span>
+            <h3 data-template-id="conv1-title" class="canva-text font-semibold text-white mt-2 mb-3 text-19">Un taller sobre herramientas abiertas y colaborativas de comunicación.</h3>
+            <p data-template-id="conv2-speakers" class="canva-text text-sm text-gray-400">Requisitos: uso de internet medio, familiaridad con redes sociales y aplicaciones de mensajes, celular (Android o iPhone) o laptop</p>
+            <p data-template-id="conv1-speakers" class="canva-text text-sm text-gray-400">Coordina: Nicky Donna </p>
+            <p data-template-id="conv1-speakers" class="canva-text text-sm text-gray-400 fecha">🗓️ <strong>22 de Octubre - 17:00 hs</strong></p>
+            <a href="https://forms.gle/jHRToFPp6ZC62uoP8" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 text-white text-sm font-medium hover:shadow-lg hover:shadow-purple-500/30 transition shadow-md button">Inscribite</a>
+          </div>
+          <div data-template-id="conv3-card" class="canva-card p-6 rounded-2xl border border-teal-500/20 bg-card">
+            <span class="text-xs font-semibold text-teal-400 uppercase tracking-wider">Data Viz</span>
+            <h3 data-template-id="conv1-title" class="canva-text font-semibold text-white mt-2 mb-3 text-19">Taller de gestión y visualización de datos con herramientas Open Source</h3>
+            <p data-template-id="conv2-speakers" class="canva-text text-sm text-gray-400">Requisitos: uso de internet medio, familiaridad con redes sociales y aplicaciones de mensajes, celular (Android o iPhone) o laptop</p>
+            <p data-template-id="conv1-speakers" class="canva-text text-sm text-gray-400">Coordina: Melisa Anabella Caffaratti (Transparencia UNC) </p>
+            <p data-template-id="conv1-speakers" class="canva-text text-sm text-gray-400 fecha">🗓️ <strong>23 de Octubre - 11:00 hs</strong></p>
+            <a href="https://forms.gle/5XupKMFLzK1Aqzu18" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 text-white text-sm font-medium hover:shadow-lg hover:shadow-purple-500/30 transition shadow-md button">Inscribite</a>
           </div>
         </div>
       </div>
@@ -366,7 +359,6 @@
         </p>
       </div>
     </section>
-
     <section id="inscripcion" class="py-16 px-4 fade-in">
       <div class="max-w-3xl mx-auto text-center">
         <h2 data-template-id="insc-title" class="canva-text font-bold text-white text-2xl mb-4">Inscripción y Participación</h2>
@@ -376,6 +368,96 @@
         <a href="https://forms.gle/ryYteCLZKoExUzcb6" target="_blank" data-template-id="insc-cta" class="canva-button inline-block px-8 py-3 rounded-full bg-gradient-to-r from-teal-500 to-electric-500 text-white font-semibold hover:opacity-90 transition">Completar formulario de inscripción</a>
       </div>
     </section>
+
+    <section id="comites" class="py-16 px-4 fade-in">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 data-template-id="insc-title" class="canva-text font-bold text-white text-2xl mb-4">Equipo Organizador</h2>
+            <ul class="space-y-3 text-sm text-gray-300">
+              <li class="flex gap-2"> Dra. Bárbara Arias Toledo (UNC-CONICET)</li>
+              <li class="flex gap-2"> Dra. Velez Rueda Ana Julia (UNQ-CONICET)</li>
+              <li class="flex gap-2"> Ing. Franco Bulgarelli (UTN - UNQ)</li>
+              <li class="flex gap-2"> Mg. Alan Halatian (UNQ)</li>
+              <li class="flex gap-2"> Gianella Carolina Rossi (UNC)</li>
+              <li class="flex gap-2"> Candelaria Macchi (FIUNER)</li>
+            </ul>
+      </div>
+    </section>
+
+    <section id="viaje" class="py-16 px-4 fade-in">
+    <div class="max-w-4xl mx-auto">
+    <h2 data-template-id="viaje-title" class="canva-text font-bold text-center text-white text-2xl mb-3">Datos útiles para el viaje</h2>
+    <p data-template-id="viaje-subtitle" class="canva-text text-center text-gray-400 mb-10 max-w-2xl mx-auto">Todo lo que necesitas saber para alojarte en CABA y llegar a la Universidad Nacional de Quilmes.</p>
+
+    <!-- Alojamiento -->
+    <div class="mb-12">
+      <h3 class="text-teal-400 font-semibold text-xl mb-4 flex items-center gap-2">
+        <i data-lucide="hotel" class="w-5 h-5"></i> Alojamientos Económicos en CABA
+      </h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="canva-card p-6 rounded-2xl gradient-border hover:border-teal-400/40 transition bg-card">
+          <h4 class="text-white font-semibold text-lg">Hotel ATE 27 de Junio</h4>
+          <p class="text-sm text-gray-400 mt-1">Defensa 1469, San Telmo, CABA</p>
+          <p class="text-sm text-gray-400">📞 11 3886 8538 / 11 5485 2436</p>
+          <p class="text-sm text-gray-400">✉️ hotel27dejunio@ateargentina.org.ar</p>
+          <div class="mt-4 space-y-2 text-sm border-t border-white/10 pt-4">
+            <p class="text-xs font-semibold text-teal-400 uppercase tracking-wider"><a href="https://www.instagram.com/p/DWY7hv-jhch/">+INFO</a></p>
+          </div>
+        </div>
+
+        <div class="canva-card p-6 rounded-2xl gradient-border hover:border-electric-400/40 transition bg-card">
+          <h4 class="text-white font-semibold text-lg">ADIUC (O2 Hotel Buenos Aires)</h4>
+          <p class="text-sm text-gray-400 mt-1">📍 Reservas a través del siguiente enlace:</p>
+          <p class="text-xs text-gray-500 mt-4">Consultar tarifas y condiciones en el sitio oficial.</p>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-electric-400 hover:text-electric-300 text-sm font-medium mt-2 border border-electric-500/20 rounded-full px-4 py-1.5 hover:bg-electric-500/10 transition">
+            <i data-lucide="link" class="w-4 h-4"></i> Ver disponibilidad
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+      <h3 class="text-electric-400 font-semibold text-xl mb-4 flex items-center gap-2">
+        <i data-lucide="map-pin" class="w-5 h-5"></i> Cómo llegar desde CABA a la UNQ
+      </h3>
+      <div class="canva-card p-6 rounded-2xl border border-white/10 bg-card space-y-4">
+        <div class="flex items-start gap-3">
+          <div class="w-8 h-8 rounded-full bg-teal-500/10 flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="train" class="w-4 h-4 text-teal-400"></i>
+          </div>
+          <div>
+            <p class="text-white font-medium">Tren Roca (Línea Bosques vía Quilmes)</p>
+            <p class="text-sm text-gray-400">Desde <strong>Constitución</strong> hasta la estación <strong>Bernal</strong>. La UNQ queda a 4 cuadras (Av. Roque Sáenz Peña 352).</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="w-8 h-8 rounded-full bg-electric-500/10 flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="bus" class="w-4 h-4 text-electric-400"></i>
+          </div>
+          <div>
+            <p class="text-white font-medium">Colectivos</p>
+              <p class="text-sm text-gray-400">Línea <strong>98</strong> que conecta distintos puntos de CABA con Bernal.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="w-8 h-8 rounded-full bg-amber-500/10 flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="car" class="w-4 h-4 text-amber-400"></i>
+          </div>
+          <div>
+            <p class="text-white font-medium">En auto</p>
+            <p class="text-sm text-gray-400">Desde CABA: tomar <strong>Autopista Buenos Aires – La Plata</strong> (extensión a Quilmes por Avenida 27 de Febrero), bajada Bernal.</p>
+          </div>
+        </div>
+        <div class="mt-2 p-3 rounded-xl bg-teal-500/5 border border-teal-500/10">
+          <p class="text-xs text-gray-400 flex items-center gap-2">
+            <i data-lucide="info" class="w-3.5 h-3.5 text-teal-400"></i>
+            IMPORTANTE: para viajar en transporte público en PBA y CABA podés usar la sube o pagar con tarjeta de débito.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
   </main>
 
   <footer class="border-t border-white/5 py-8 px-4 text-center">
